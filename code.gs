@@ -1,3 +1,5 @@
+var kareoDate = "10/5/2021";
+
 function onOpen(e) {
     SpreadsheetApp.getUi()
         .createMenu("Kareo Script")
@@ -91,7 +93,7 @@ function requestXML() {
                 </sch:Fields>
                 <!--Optional:-->
                 <sch:Filter>
-                  <sch:FromCreatedDate>10/5/2021</sch:FromCreatedDate>
+                  <sch:FromCreatedDate>${kareoDate}</sch:FromCreatedDate>
                 </sch:Filter>
             </sch:request>
           </sch:GetPatients>
