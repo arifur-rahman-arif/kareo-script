@@ -40,3 +40,18 @@ function testFunction() {
     let response = UrlFetchApp.fetch(kareo, options);
     Logger.log(response);
 }
+
+
+<sch:AddressLine2>true</sch:AddressLine2>
+                  <sch:Age>true</sch:Age>
+
+                  <sch:FirstName>true</sch:FirstName>
+                  <sch:LastName>true</sch:LastName>
+                  <sch:DOB>true</sch:DOB>
+                  <sch:EmailAddress>true</sch:EmailAddress>
+                  <sch:MobilePhone>true</sch:MobilePhone>
+                  
+                  <sch:City>true</sch:City>
+                  <sch:State>true</sch:State>
+                  <sch:ZipCode>true</sch:ZipCode>
+                  <sch:CollectionCategoryName>true</sch:CollectionCategoryName>
