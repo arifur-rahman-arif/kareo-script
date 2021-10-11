@@ -1,9 +1,9 @@
 <?php
 
 try {
-    $user = 'skyler@chrisscottwellness.com';
-    $password = 'Temppass421?';
-    $customerKey = 'j43qd27kp89a';
+    $user = 'User';
+    $password = 'password?';
+    $customerKey = 'customer key';
 
     $wsdl = 'https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?singleWsdl';
     $client = new SoapClient($wsdl);
@@ -24,9 +24,6 @@ try {
     print_r($response);
     echo '</pre>';
 
-    // foreach ($response->Patients->PatientData as &$value) {
-    //     print($value->PatientFullName . '<br />');
-    // }
 } catch (Exception $err) {
     print "Error: " . $err->getMessage();
 }
