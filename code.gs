@@ -1,4 +1,7 @@
 var kareoDate = "10/5/2021";
+var userName = "username here";
+var password = "password here";
+var customerKey = "key here";
 
 function onOpen(e) {
     SpreadsheetApp.getUi()
@@ -84,9 +87,9 @@ function requestXML() {
           <sch:GetPatients>
             <sch:request>
                 <sch:RequestHeader>
-                  <sch:CustomerKey>j43qd27kp89a</sch:CustomerKey>
-                  <sch:Password>Temppass421?</sch:Password>
-                  <sch:User>skyler@chrisscottwellness.com</sch:User>
+                  <sch:CustomerKey>${customerKey}</sch:CustomerKey>
+                  <sch:Password>${password}</sch:Password>
+                  <sch:User>${userName}</sch:User>
                 </sch:RequestHeader>
                 <!--Optional:-->
                 <sch:Fields>
