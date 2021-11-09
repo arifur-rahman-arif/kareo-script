@@ -1,9 +1,9 @@
 <?php
 
 try {
-    $user = 'User';
-    $password = 'password?';
-    $customerKey = 'customer key';
+    $user = 'skyler@chrisscottwellness.com';
+    $password = 'qVfn#5d6M$fNXB2';
+    $customerKey = 'j43qd27kp89a';
 
     $wsdl = 'https://webservice.kareo.com/services/soap/2.1/KareoServices.svc?singleWsdl';
     $client = new SoapClient($wsdl);
