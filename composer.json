@@ -1,0 +1,13 @@
+{
+    "name": "ar.arif/kareo",
+    "authors": [
+        {
+            "name": "Arifur Rahman Arif",
+            "email": "dragonwarrior052@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-soap": "*",
+        "php": ">=5.4.0"
+    }
+}
