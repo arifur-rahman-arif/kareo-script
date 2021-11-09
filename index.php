@@ -21,6 +21,7 @@ try {
     $response = $client->GetPatients($params)->GetPatientsResult;
 
     echo json_encode($response);
+    die;
 
 } catch (Exception $err) {
     print "Error: " . $err->getMessage();
